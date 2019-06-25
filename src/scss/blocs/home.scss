@@ -1,0 +1,38 @@
+body{
+  background-color: #303030;
+  nav{
+    display:flex;
+    color: white;
+    justify-content: flex-end;
+    ul{
+      display: flex;
+      justify-content: flex-end;
+      li{
+        margin-right: 30PX;
+      }
+    }
+  } 
+  h1{
+    font-size: 200px;
+    color: white;
+    text-align: center;
+  }
+ h2{
+  color: white;
+  letter-spacing: 0.8em;
+  transform: rotate(-90deg);
+  }
+ figcaption{
+   display: block;
+   align-items: center;
+   color: white;
+ }
+ figure{
+   img{
+     width: 20vw;
+   }
+ }
+ .disposition{
+   display: flex;
+ }
+}

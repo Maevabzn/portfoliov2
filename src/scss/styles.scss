@@ -1,8 +1,2 @@
-.header {
-  background: gold;
-
-  h1 {
-    text-align: center;
-    font-size: 50px;
-  }
-}
+@import url('./vendors/reset.scss');
+@import url('./blocs/home.scss');
